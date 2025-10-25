@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SP-CART</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--Google Fonts-->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+    <!-- linked Css-->
+    <link rel="stylesheet" href="style.css">
+    <!--font awesome cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<!--nav-bar-->
+
+<body>
+
+    <nav class="navbar">
+        <h1> SP-CART</h1>
+        <div class="navbar-links">
+            <p class="navbar-link"> <a href="index.html"> Home </a></p>
+            <p class="navbar-link"> <a href="collection.html"> Collections </a></p>
+            <p class="navbar-link"> <a href="contact.html"> Contact </a></p>
+
+
+        </div>
+        <div class="navbar-menu-toggle" onclick="showNavbar()">
+            <i class="fa-solid fa-bars"></i>
+
+        </div>
+
+    </nav>
+    <!--side-nav-bar-->
+    <div class="side-navbar">
+        <p style="text-align: right;" onclick="closeNavbar()">
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+        <div class="side-navbar-links">
+            <p class="side-navbar-link"> <a href="index.html"> Home </a></p>
+            <p class="side-navbar-link"> <a href="collection.html"> Collections </a></p>
+            <p class="side-navbar-link"> <a href="contact.html"> Contact </a></p>
+
+
+        </div>
+    </div>
+<!--Product-->
+<div class="product-section">
+<form class="product-search">
+    <input type="text" id="search" placeholder="Search">
+    <i class="fa-solid fa-magnifying-glass"></i>
+</form>
+<div class="products" id="products">
+
+
+    <div class="products-box">
+        <img src="3c9314a6f926974d535e8c9ed8a6cb73.jpg" style="width: 250px;">
+        <p>White Shirt</p>
+
+    </div>
+    <div class="products-box">
+        <img src="OIP.jpg" style="width: 250px;">
+        <p>Black Shirt</p>
+
+    </div>
+    <div class="products-box">
+        <img src="af41c2dd424348ce51e7a40c7607c8e2.jpg" style="width: 250px;">
+        <p>Printed Shirts</p>
+
+    </div>
+    <div class="products-box">
+        <img src="3c9314a6f926974d535e8c9ed8a6cb73.jpg" style="width: 250px;" >
+        <p>Trending Shirts</p>
+
+    </div>
+    <div class="products-box">
+        <img src="3c9314a6f926974d535e8c9ed8a6cb73.jpg" style="width: 250px;">
+        <p>White Shirt</p>
+
+    </div>
+    <div class="products-box">
+        <img src="3c9314a6f926974d535e8c9ed8a6cb73.jpg" style="width: 250px;">
+        <p>Black Shirt</p>
+
+    </div>
+    <div class="products-box">
+        <img src="3c9314a6f926974d535e8c9ed8a6cb73.jpg" style="width: 250px;">
+        <p>White Shirt</p>
+
+    </div>
+    <div class="products-box">
+        <img src="3c9314a6f926974d535e8c9ed8a6cb73.jpg" style="width: 250px;">
+        <p>Black Shirt</p>
+
+    </div>
+</div>
+</div>
+<!--Footer-->                                                
+<div class="footer">
+    <div class="footer-container">
+        <div class="footer-box-1">
+            <h2 class="headingtext">SP-Cart</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam nisi quisquam expedita fugiat praesentium sapiente?</p>
+       <div class="footer-icon-container"> 
+        <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+        <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+        <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
+       </div>
+        </div>
+    </div>
+  <p> @  2025 SP-Cart.com</p>
+</div>
+
+
+
+
+    <script src="collection.js"></script>
+
+</body>
+
+</html>
